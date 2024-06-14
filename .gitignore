@@ -1,0 +1,15 @@
+# Environment Variables
+.env
+
+# Prompts
+*.md
+!*_example.md
+
+# Data
+chat/*.txt
+summary/*.txt
+transcript/*.txt
+
+# Others
+__pycache__
+.DS_Store
