@@ -4,6 +4,7 @@
 # Prompts
 *.md
 !*_example.md
+!README.md
 
 # Data
 chat/*.txt
