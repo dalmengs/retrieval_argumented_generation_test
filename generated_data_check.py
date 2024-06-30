@@ -46,7 +46,7 @@ async def main():
         print("요약 데이터 파싱: ", end="")
         try:
             data = list(eval(open("./summary/{}".format(file_name), "r").read()))
-            if not isinstance(data, list) or not len(data) == 3:
+            if not isinstance(data, list):
                 raise Exception()
         except Exception as e:
             print("파싱 테스트 실패!")

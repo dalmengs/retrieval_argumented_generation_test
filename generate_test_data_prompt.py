@@ -61,6 +61,7 @@ async def main():
 
     chunk_size = 5
     for i in range(0, len(file_list), chunk_size):
+        print(i, i + chunk_size)
         await asyncio.gather(*tasks[i:(i+chunk_size)])
 
 asyncio.run(main())

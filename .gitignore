@@ -6,6 +6,16 @@
 !*_example.md
 !README.md
 
+# Model Cache
+model
+
+# Virtual Environment
+venv
+
+# Database Volumes
+milvus/**
+!milvus/docker-compose.yml
+
 # Data
 chat/*.txt
 summary/*.txt
